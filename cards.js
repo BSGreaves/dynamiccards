@@ -1,11 +1,10 @@
-var userInputField = document.getElementById("userInput");
+svar userInputField = document.getElementById("userInput");
 var createButton = document.getElementById("createButton");
 var cardHolder = document.getElementById("cardHolder");
 
 var createCard = function() {
     console.log("createCard fired")
     var newCard = document.createElement("div");
-    cardCount++;
     newCard.className = "card";
     var content = document.createTextNode(userInputField.value);
     newCard.appendChild(content);
