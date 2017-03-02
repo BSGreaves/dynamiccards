@@ -1,4 +1,4 @@
-svar userInputField = document.getElementById("userInput");
+var userInputField = document.getElementById("userInput");
 var createButton = document.getElementById("createButton");
 var cardHolder = document.getElementById("cardHolder");
 
