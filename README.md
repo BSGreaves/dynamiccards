@@ -6,13 +6,13 @@ In this Nashville Software School assignment, we were to create a simple program
 
 ## Usage
 
-Add text to te user input. When you click the "create" button, a card containing your text will be added to the DOM. By clicking the "delete" button on a card, the card will be eliminated from the DOM.
+Add text to the user input. When you click the "create" button, a card containing your text will be added to the DOM. By clicking the "delete" button on a card, the card will be eliminated from the DOM.
 
 ## Installation
 
 ```
 git clone https://github.com/BSGreaves/dynamiccards.git
-cd blog
+cd dynamiccards
 npm install http-server -g
 http-server -p 8080
 ```
